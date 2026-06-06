@@ -1,0 +1,15 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "description": "GitHub Repo Explorer — Studio Graphene Full Stack Assessment",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
