@@ -14,9 +14,8 @@ The frontend never talks to GitHub directly. All requests go through the Node.js
 
 ## Live Demo
 
-Frontend: (Vercel link here)
-
-Backend API: (Render link here)
+Frontend: https://gitexplorer-one.vercel.app
+Backend API: https://gitexplorer-backend-s7gl.onrender.com
 
 ---
 
