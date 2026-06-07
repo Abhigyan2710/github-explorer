@@ -220,6 +220,8 @@ github-explorer/
 
 ## Deployment
 
+A note on the free tier: the backend is hosted on Render's free plan which spins down after 15 minutes of inactivity. The first request after a period of no use may take 30-50 seconds to respond while the server wakes up. This is expected behaviour on the free tier and not a bug. The frontend on Vercel stays live permanently.
+
 **Backend on Render**
 
 Create a new Web Service, connect the GitHub repo, set root directory to server, build command to npm install, start command to node src/index.js. Optionally add a GITHUB_TOKEN environment variable to increase the rate limit.
